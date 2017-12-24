@@ -1,0 +1,17 @@
+
+ add_event_now inside
+ add_event_now querychk updateUPDATE `events` SET `event_date` = '2017-04-21', `event_time` = '15:01:00', `location` = 'Sanskiti Hall, Ameerpeth', `event` = 'Seminar on UI Design', `event_by` = '1'
+WHERE `id` = '1'
+ add_event_now inside
+ add_event_now querychk insertINSERT INTO `events` (`event_date`, `event_time`, `location`, `event`, `event_by`) VALUES ('2017-04-21', '15:02', 'Hydrabaad', 'Employee of the Year Richa Dixit', '1')
+ add_event_now inside
+ add_event_now querychk updateUPDATE `events` SET `event_date` = '2017-04-21', `event_time` = '15:01:00', `location` = 'Sanskiti Hall, Ameerpeth', `event` = 'Seminar on UI Design awesome', `event_by` = '1'
+WHERE `id` = '1'
+ add_event_now inside
+ add_event_now querychk updateUPDATE `events` SET `event_date` = '2017-04-21', `event_time` = '15:01:00', `location` = 'Sanskiti Hall, Ameerpeth', `event` = 'Seminar on UI Design awesome party', `event_by` = '5'
+WHERE `id` = '1'
+ add_event_now inside
+ add_event_now querychk insertINSERT INTO `events` (`event_date`, `event_time`, `location`, `event`, `event_by`) VALUES ('2017-04-14', '21:02', 'Morbhavan', 'Night party', '5')
+ add_event_now inside
+ add_event_now querychk updateUPDATE `events` SET `event_date` = '2017-04-21', `event_time` = '15:01:00', `location` = 'Sanskiti Hall, Ameerpeth', `event` = 'Seminar on UI Design awesome party v', `event_by` = '1'
+WHERE `id` = '1'
